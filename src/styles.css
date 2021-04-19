@@ -1,0 +1,26 @@
+/** @format */
+
+.btn,
+.jumbotron,
+.nav :hover {
+	border-radius: 0px;
+}
+
+body {
+	background: #e7e7e7;
+	overflow: scroll;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+	width: 100%;
+
+	text-align: center;
+}
+
+.hello {
+	margin-bottom: 170px;
+}
