@@ -1,7 +1,6 @@
 /** @format */
 
 import { API } from '../../backend';
-//API means ; http://localhost:8000/api/
 
 export const signup = (user) => {
 	return fetch(`${API}/signup`, {
@@ -15,7 +14,7 @@ export const signup = (user) => {
 		.then((response) => {
 			return response.json();
 		})
-		.catch((err) => console.error(err));
+		.catch((err) => console.log(err));
 };
 
 export const signin = (user) => {
@@ -30,7 +29,7 @@ export const signin = (user) => {
 		.then((response) => {
 			return response.json();
 		})
-		.catch((err) => console.error(err));
+		.catch((err) => console.log(err));
 };
 
 export const authenticate = (data, next) => {
@@ -48,8 +47,8 @@ export const signout = (next) => {
 		return fetch(`${API}/signout`, {
 			method: 'GET',
 		})
-			.then((response) => console.log('Signout success'))
-			.catch((err) => console.error(err));
+			.then((response) => console.log('signout success'))
+			.catch((err) => console.log(err));
 	}
 };
 

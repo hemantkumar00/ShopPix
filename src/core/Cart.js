@@ -46,7 +46,7 @@ const Cart = () => {
 	return (
 		<Base title='Cart Page' description='Ready to check out'>
 			<div className='row  text-center'>
-				<div className='col-6'>
+				<div className='col-5'>
 					{products.length > 0 ? (
 						loadAllProducts(products)
 					) : (
@@ -55,7 +55,7 @@ const Cart = () => {
 						</p>
 					)}
 				</div>
-				<div className='col-6'>
+				<div className='col-7'>
 					<Payment products={products} setReload={setReload} />
 				</div>
 			</div>

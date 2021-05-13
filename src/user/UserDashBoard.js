@@ -38,7 +38,7 @@ const UserDashBoard = () => {
 						</li>
 						<li className='list-group-item'>
 							<span className='badge alert-danger text-danger mr-2'>
-								Admin Area
+								User Area
 							</span>
 						</li>
 					</ul>

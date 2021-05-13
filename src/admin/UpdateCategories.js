@@ -99,7 +99,7 @@ const AddCategory = ({ match }) => {
 			description='Add a new category for PHOTO'
 			className='container bg-info p-4'>
 			<div className='row bg-white rounded'>
-				<div className='col-md-8 offset-md-2 text-secondary'>
+				<div className='col-8 offset-md-2 text-secondary'>
 					{successMessage()}
 					{warningMessage()}
 					{myCategoryForm()}

@@ -215,7 +215,7 @@ const UpdateProduct = ({ match }) => {
 				Dashboard
 			</Link>
 			<div className='row bg-white text-secondary rounded'>
-				<div className=' col-md-8 offset-md-2'>
+				<div className=' col-8 offset-md-2'>
 					{successMessage()}
 					{warningMessage()}
 					{createProductForm()}
